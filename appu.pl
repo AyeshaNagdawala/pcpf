@@ -1,0 +1,10 @@
+:-style_check(-discontiguous).
+elephant(appu).
+mammal(X):-elephant(X).
+vertebrate(Y):-mammal(Y).
+herbivores(Z):-elephant(Z).
+eats(A,grass):-herbivores(A).
+has(B,spinalcord):-vertebrate(B).
+mascot(appu).
+elephant(tappu).
+stand(C):-vertebrate(C).
