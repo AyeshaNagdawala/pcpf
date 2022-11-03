@@ -1,3 +1,6 @@
+//always call using derived class name
+//call all functions in main
+
 #include <iostream>  
 using namespace std;  
  class Animal {  
