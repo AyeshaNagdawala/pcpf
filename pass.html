@@ -1,0 +1,16 @@
+<html>
+<body>
+<h1>JavaScript</h1>
+<script>
+let string = prompt("Enter a pasword :");
+if(string.match(/[a-z]/g)&&string.match(/[A-Z]/g)&&string.match(/[0-9]/g)&&string.match(/[#]/gi)&&string.match(/[!]/gi)&&string.length>=8)
+{
+	alert("Password Valid.");
+}
+else
+{
+alert("Password invalid.");
+}
+</script>
+</body>
+</html>
